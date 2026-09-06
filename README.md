@@ -6,13 +6,10 @@ un entorno multitarea realista
 
 # Descripción
 
-SpeedFast posee (por ahora) tres repartidores entre los cuales deben dividirse la cantidad de pedidos a entregar, 
-considerando que cada uno de ellos puede tener una prioridad alta, media o baja en función del tipo de pedido que es.
+SpeedFast posee (por ahora) tres repartidores entre los cuales deben dividirse la cantidad de pedidos a entregar, considerando que cada uno de ellos puede tener una prioridad (alta, media o baja) que determina el orden en que se imprimirán al final.
 
-
-
-
-
+Para que los tres repartidores trabajen simultáneamente se utilizan dos mecanismos de
+concurrencia: Interfaz Runnable y ExecutorService.
 
 semana 4/
 └── src/
@@ -29,4 +26,16 @@ semana 4/
     ├── Despachable.java            Interfaz: despachar()
     ├── Rastreable.java             Interfaz: verHistorial()
     └── Main.java                   Clase principal con la simulación
-```
+
+
+#Ejecución 1° Clonar el repositorio: https://github.com/ggonzalp/DOOIIS3Sumativa.git
+
+2° Abrir el proyecto en IntelliJ IDEA
+
+3° Ejecutar la clase principal: src/ui/Main.java
+
+4° El programa cargará automáticamente los datos ingresados de forma local y manual.
+
+Autoría Estudiante: Gabriela González Peirano 
+Asignatura: Desarrollo Orientado a Objetos II 
+Instituto: DuocUC
