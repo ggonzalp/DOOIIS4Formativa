@@ -28,7 +28,9 @@ semana 4/
     └── Main.java                   Clase principal con la simulación
 
 
-#Ejecución 1° Clonar el repositorio: https://github.com/ggonzalp/DOOIIS3Sumativa.git
+#Ejecución 
+
+1° Clonar el repositorio: https://github.com/ggonzalp/DOOIIS4Formativa.git
 
 2° Abrir el proyecto en IntelliJ IDEA
 
