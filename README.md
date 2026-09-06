@@ -1,8 +1,8 @@
 # SpeedFast
 
-La actividad formativa de esta semana consiste en robustecer el sistema que ya se venía trabajando, para desarrollar un 
+La actividad formativa de esta semana consiste en robustecer el programa que ya se venía trabajando, para desarrollar un 
 sistema orientado a objetos que represente diversos actores realizando tareas concurrentes, con el objetivo de simular 
-un entorno multitarea realista
+un entorno de multitarea.
 
 # Descripción
 
@@ -26,7 +26,6 @@ semana 4/
     ├── Despachable.java            Interfaz: despachar()
     ├── Rastreable.java             Interfaz: verHistorial()
     └── Main.java                   Clase principal con la simulación
-
 
 #Ejecución 
 
